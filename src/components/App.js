@@ -3,10 +3,7 @@ import '../styles/App.css';
 import BaseLayout from './BaseLayout'
 import ParentComponent from './ParentComponent'
 
-
-
-
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="App">
@@ -17,5 +14,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

@@ -19,6 +19,7 @@ export default class ParentComponent extends Component {
   }
   handleInput(e) {
     e.preventDefault();
+    console.log(e.target.value);
     //set the state on input change
     this.setState({whatToSay: e.target.value});
   }
